@@ -37,8 +37,8 @@
 						<environment>${enviroment}</environment>
 						<target>Cloudhub-US-East-2</target>
 						<muleVersion>4.10.1</muleVersion>
-						<username>sebcicd</username>
-						<password>S.gomez71</password>
+						<username>${anypoint.username}</username>
+						<password>${anypoint.password}</password>
 						<applicationName>deploy-cicd</applicationName>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
