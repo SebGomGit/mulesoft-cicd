@@ -59,8 +59,8 @@ jobs:
         # lo cual es correcto para tu script 'ls *.jar' de abajo.
     - name: Deploy to Sandbox
       env:
-        USERNAME: ${{ secrets.anypoint_platform_username }}
-        PASSWORD: ${{ secrets.anypoint_platform_password }}
+        USERNAME: sebcicd
+        PASSWORD: S.gomez71
       run: |
         artifactName=$(ls *.jar | head -1)
         mvn deploy -DmuleDeploy \
